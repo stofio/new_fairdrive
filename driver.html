@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>fairdrive.app - Fair für alle</title>
+    <meta name="author" content="Fairdrive Solutions GmbH" />
+    <meta name="description" content="Die Management-App für Taxi und Mietwagen. Bis zu 800 Euro monatlich einsparen. Ohne Provisionszahlungen." />
+    <meta property="og:url" content="https://fairdrive.app/index.html" />
+    <meta property="og:description" content="Die Management App für Taxi und Mietwagen" />
+    <meta property="og:image" content="https://fairdrive.app/logo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" href="/favicon-57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/favicon-144.png" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&amp;display=swap" rel="stylesheet" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160288242-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-160288242-1');
+    </script>
+</head>
+
+<body>
+    <div class="bg-img"></div>
+    <div id="popup-download"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-on-img" id="mainNav">
+        <div id="headerContainer" class="container-fluid border-line">
+            <!--mobile header-->
+            <div id="menuToggle">
+                <input type="checkbox" /> <span></span> <span></span>
+                <span></span>
+                <ul id="menu" class="navbar-nav">
+                    <li class="nav-item"><a href="/passanger.html">Passanger</a></li>
+                    <li><a href="/driver.html">Driver</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li class="nav-item"><a href="/blog.html">Blog</a>
+                    </li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <div class="divider"></div>
+                    <a href="#" class="downloadButton mob-button">Download</a>
+                    <div class="menu-icons">
+                        <a href="/">
+                            <img src="images/icons/fairdrive_pin_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/yt_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/fb_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/insta_icon.svg" height="30" width="30" />
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            <div id="logo-mobile">
+                <a href="/"> <img src="images/fairdrive_w_pos.png" /> </a>
+            </div>
+            <!--desktop header-->
+            <a class="navbar-logo js-scroll-trigger" href="/">
+                <img class="lgLogo" src="images/fairdrive_w_pos.png" />
+                <img class="smLogo" src="images/fairdrive_logo_text.png" />
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/passanger.html">
+                            <span>Passanger</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/driver.html">
+                            <span>Driver</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">
+                            <span>About</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="/blog.html">
+                            <span>Blog</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">
+                            <span>Contact</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <a class="popup downloadButton hide-mob" data-toggle="modal" data-target="#popup-down">
+                    Register as a driver
+                </a>
+                <a id="download-mobile" href="#" class=" show-mob downloadButton" data-toggle="modal" data-target="#popup-down">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="driver-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Download the fairdrive app and get the benefits like never before</h2>
+                    <div class="buttons-download">
+                        <a href="#" class="downloadButton m-b">Download for iOS</a>
+                        <a href="#" class="downloadButton m-b">Download for Android</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt60">
+        <div class="container">
+            <div class="section-divider"></div>
+        </div>
+    </section>
+
+    <section class="section-m">
+        <div class="container">
+            <div class="row h-100 rel">
+                <div class="col-md-12 text-center">
+                    <h2>Benefits of using fairdrive app</h2>
+                    <div class="row benefits">
+                        <div class="col-md-3">
+                            <img src="images/benefits/no-provision-fee.png">
+                            <h4>Get your own clients, no provision fees</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/benefits/increased-clients.png">
+                            <h4>More rides in the same time</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/benefits/5min-bookkeeping.png">
+                            <h4>Book keeping in 5 minutes</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/benefits/straight-orders.png">
+                            <h4>Orders straight from your clients and not only</h4>
+                        </div>
+                    </div>
+                    <div class="row benefits">
+                        <div class="col-md-3">
+                            <img src="images/benefits/fleet-management.png">
+                            <h4>Vehicle fleet management</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/benefits/">
+                            <h4>Reduce tax officer costs</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/benefits/car-discount.png">
+                            <h4>Additional discount on new car orders</h4>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="images/benefits/2-month-free.png">
+                            <h4>First 2 month FREE, than FIX PRICE, starting from 20€ a month</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mt60">
+        <div class="container">
+            <div class="section-divider"></div>
+        </div>
+    </section>
+
+    <section class="section-m">
+        <div class="container">
+            <div class="row h-100 rel">
+                <div class="col-md-12 text-center">
+                    <h2 class="mb-5">Unique functions of the fairdrive app</h2>
+                    <div class="functions">
+                        <div class="release-item">
+                            <div class="rel-img">
+                                <div> <img src="images/icons/F/F1_fahrerprofil.png"> </div>
+                            </div>
+                            <div class="rel-desc">
+                                <p><b>Fahrerprofil anlegen</b></p>
+                                <p>z. B. Name, Adresse, Steuernummer, K-Versicherungsnummer</p>
+                            </div>
+                        </div>
+                        <div class="release-item">
+                            <div class="rel-img">
+                                <div> <img src="images/icons/F/F2_schichtbeginn.png"> </div>
+                            </div>
+                            <div class="rel-desc">
+                                <p><b>Schicht beginnen/beenden</b></p>
+                                <p>am Fahrzeug ein- und ausloggen</p>
+                            </div>
+                        </div>
+                        <div class="release-item">
+                            <div class="rel-img">
+                                <div> <img src="images/icons/F/F3_tage.png"> </div>
+                            </div>
+                            <div class="rel-desc">
+                                <p><b>Übersicht über eigene gemachte Fahrten</b> </p>
+                                <p>inklusive Trinkgeld</p>
+                            </div>
+                        </div>
+                        <div class="release-item">
+                            <div class="rel-img">
+                                <div> <img src="images/icons/F/F4_monate.png"> </div>
+                            </div>
+                            <div class="rel-desc">
+                                <p><b>Übersicht über eigene zukünftige Buchungen</b></p>
+                            </div>
+                        </div>
+                        <div class="release-item">
+                            <div class="rel-img">
+                                <div> <img src="images/icons/F/F5_countdown.png"> </div>
+                            </div>
+                            <div class="rel-desc">
+                                <p><b>Infofeld über die nächste Fahrt</b></p>
+                                <p>inklusive Countdown</p>
+                            </div>
+                        </div>
+                        <div class="release-item">
+                            <div class="rel-img">
+                                <div> <img src="images/icons/F/F6_foto.png"> </div>
+                            </div>
+                            <div class="rel-desc">
+                                <p><b>Quittungen fotografieren und abheften</b></p>
+                            </div>
+                        </div>
+                        <div class="release-item">
+                            <div class="rel-img">
+                                <div> <img src="images/icons/F/F7_euro.png"> </div>
+                            </div>
+                            <div class="rel-desc">
+                                <p><b>Fahrt festhalten nach Fahrtabschluss</b></p>
+                                <p>Preis, Kilometer, Steuer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mt60">
+        <div class="container">
+            <div class="section-divider"></div>
+        </div>
+    </section>
+
+
+    <section class="section-m-60 passanger-download">
+        <div class="container">
+            <div class="row h-100 rel">
+                <div class="col-md-12 text-center">
+                    <h2>Download the app and get satisfied from your rided</h2>
+                    <div class="buttons-download">
+                        <a href="#" class="downloadButton m-b">Download for iOS</a>
+                        <a href="#" class="downloadButton m-b">Download for Android</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 my-auto center-block copyright">
+                    <p>
+                        fairdrive.app ist ein eingetragenes Produkt der Fairdrive Solutions GmbH <br /> Diese Website verwendet Cookies.
+                        <a href="/Nutzungsbedingungen.html">Nutzungsbedingungen</a> und
+                        <a href="/Datenschutzbestimmungen.html">Datenschutzbestimmungen</a>
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#">
+                            <img src="images/icons/fairdrive_pin_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="video.html">
+                            <img src="images/icons/yt_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/fb_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/insta_icon.svg" height="30" width="30" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jQuery.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="js/nav_menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>

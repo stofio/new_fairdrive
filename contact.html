@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title></title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&amp;display=swap" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160288242-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-160288242-1');
+    </script>
+</head>
+
+<body>
+    <div class="bg-img"></div>
+    <div id="popup-download"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-on-img" id="mainNav">
+        <div id="headerContainer" class="container-fluid border-line">
+            <!--mobile header-->
+            <div id="menuToggle">
+                <input type="checkbox" /> <span></span> <span></span>
+                <span></span>
+                <ul id="menu" class="navbar-nav">
+                    <li class="nav-item"><a href="/passanger.html">Passanger</a></li>
+                    <li><a href="/driver.html">Driver</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li class="nav-item"><a href="/blog.html">Blog</a>
+                    </li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <div class="divider"></div>
+                    <a href="#" class="downloadButton mob-button">Download</a>
+                    <div class="menu-icons">
+                        <a href="/">
+                            <img src="images/icons/fairdrive_pin_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/yt_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/fb_icon.svg" height="30" width="30" />
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/insta_icon.svg" height="30" width="30" />
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            <div id="logo-mobile">
+                <a href="/"> <img src="images/fairdrive_w_pos.png" /> </a>
+            </div>
+            <!--desktop header-->
+            <a class="navbar-logo js-scroll-trigger" href="/">
+                <img class="lgLogo" src="images/fairdrive_w_pos.png" />
+                <img class="smLogo" src="images/fairdrive_logo_text.png" />
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/passanger.html">
+                            <span>Passanger</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/driver.html">
+                            <span>Driver</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">
+                            <span>About</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="/blog.html">
+                            <span>Blog</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">
+                            <span>Contact</span> <span class="slider"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <a class="popup downloadButton hide-mob" data-toggle="modal" data-target="#popup-down">
+                    Register as a driver
+                </a>
+                <a id="download-mobile" href="#" class=" show-mob downloadButton" data-toggle="modal" data-target="#popup-down">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contact" class="section-m pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 top">
+                    <div class="text-center">
+                        <h1>Kontakt</h1>
+                        <h3>Wir freuen uns auf Ihre Nachricht. </h3>
+                    </div>
+                    <!--<p>E-Mail-Nachrichten, Kontakte usw. zur Verfügung. Ihre Daten gehören Ihnen. Diese AGB gewähren uns keinerlei Rechte an Ihren Daten, abgesehen von den begrenzten Rechten, die uns in die Lage versetzen.
+                </p>                <div class="contact-info">                    <p><img src="images/icons/phone_icon.svg"> Telefon:<b> +49 179 - 94 74 484</b></p>                    <p><img src="images/icons/mail_icon.svg"> Email:<b> contact@fairdrive.app</b></p>                </div>                -->
+                    <div class="form">
+                        <form id="contact-form">
+                            <div class="row">
+                                <div class="col-lg-5 mb-3">
+                                    <input type="text" placeholder="First name">
+                                </div>
+                                <div class="col-lg-5 mb-3">
+                                    <input type="text" placeholder="First name">
+                                </div>
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-5 mb-3">
+                                    <input type="text" placeholder="First name">
+                                </div>
+                                <div class="col-lg-5 mb-3">
+                                    <input type="text" placeholder="First name">
+                                </div>
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-10"><textarea type="textarea" placeholder="Ideen, Feedback und Anfrage"></textarea>
+                                </div>
+                                <div class="col-lg-2 col-sm-2 my-auto align-left">
+                                    <div class="sendB">
+                                        <a href="javascript:{}" onclick="document.getElementById('contact-form').submit();">
+                                            <img title="senden" src="images/send.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-icons">
+                        <a href="#">
+                            <div class="mb-2"> <img src="images/icons/fairdrive_pin_icon.svg"> </div>
+                        </a>
+                        <a href="">
+                            <div class="mb-2"> <img src="images/icons/fb_icon.svg"> </div>
+                        </a>
+                        <a href="">
+                            <div class="mb-2"> <img src="images/icons/insta_icon.svg"> </div>
+                        </a>
+                        <a href="tel:+49%20179%20-%2094%2074%20484">
+                            <div class="mb-2"> <img src="images/icons/phone_icon.svg"> </div>
+                        </a>
+                        <a href="mailto:contact@fairdrive.app">
+                            <div class="mb-2"> <img src="images/icons/mail_icon.svg"> </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-5">
+                    <div class="text-center">
+                        <h1>Or call us <br> xxx-xxxx-xxxx</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 my-auto center-block copyright">
+                    <p>fairdrive.app ist ein eingetragenes Produkt der Fairdrive Solutions GmbH <br> Diese Website verwendet Cookies. <a href="/Nutzungsbedingungen.html">Nutzungsbedingungen</a> und <a href="/Datenschutzbestimmungen.html">Datenschutzbestimmungen</a>
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#"> <img src="images/icons/fairdrive_pin_icon.svg" height="30" width="30"> </a>
+                        <a href="#"> <img src="images/icons/yt_icon.svg" height="30" width="30"> </a>
+                        <a href="#"> <img src="images/icons/fb_icon.svg" height="30" width="30"> </a>
+                        <a href="#"> <img src="images/icons/insta_icon.svg" height="30" width="30"> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jQuery.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="js/nav_menu.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+
+</html>
